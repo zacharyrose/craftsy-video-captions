@@ -1,0 +1,67 @@
+body
+{
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+.videoContainer {
+  margin:auto;
+  width: 250px;
+}
+
+.videoBox {
+  width: 250px;
+  height: 250px;
+  border-radius:5px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.videoCounter {
+  font-size: 100px;
+  color: white
+}
+
+.videoControls
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.videoControls a:hover, .videoControlState
+{
+  color: orange;
+  text-shadow: 0 0 5px black;
+}
+
+.captionContainer
+{
+  background-color: #eee;
+  border: 1px dotted #bbb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.captionContainer p {
+  font-size: 20px;
+  text-align: center;
+  margin: 6px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.captionLink
+{
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.captionLink:hover, .selectedCaption
+{
+  background-color: orange;
+  border: 1px dotted black;
+}

@@ -1,0 +1,12 @@
+{
+  "videoLength": 60,
+  "captions": [
+    { "id":0, "captionText": "Video Start", "captionStart": 0, "captionEnd": 4 },
+    { "id":1, "captionText": "I'm a caption", "captionStart": 4, "captionEnd": 12 },
+    { "id":2, "captionText": "I'm another caption", "captionStart": 12, "captionEnd": 25 },
+    { "id":3, "captionText": "I'm also a caption", "captionStart": 25, "captionEnd": 32 },
+    { "id":4, "captionText": "Still a caption", "captionStart": 32, "captionEnd": 45},
+    { "id":5, "captionText": "yehhh caption", "captionStart": 45, "captionEnd": 60},
+    { "id":6, "captionText": "Video End", "captionStart": 60, "captionEnd": 60 }
+  ]  
+}
