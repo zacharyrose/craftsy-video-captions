@@ -13,7 +13,6 @@ a {
 }
 
 .videoBox {
-  width: 250px;
   height: 250px;
   border-radius:5px;
   background-color: black;
@@ -31,6 +30,11 @@ a {
 {
   display: flex;
   justify-content: space-around;
+}
+
+.videoControls a
+{
+  font-size: 35px;
 }
 
 .videoControls a:hover, .videoControlState
@@ -64,4 +68,24 @@ a {
 {
   background-color: orange;
   border: 1px dotted black;
+}
+
+@media (max-device-width: 640px)
+{
+  .videoContainer {
+    width: 50%;
+  }
+
+  .videoBox {
+    height: 400px;
+  }
+
+  .videoControls a
+  {
+    font-size: 45px;
+  }
+
+  .captionContainer p {
+    font-size: 30px;
+  }
 }
